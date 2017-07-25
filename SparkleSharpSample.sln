@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkleSharpSample", "SparkleSharpSample\SparkleSharpSample.csproj", "{AB21F4D6-0714-4311-904C-F0087BD9847B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparkle", "SparkleSharp\Sparkle\Sparkle.csproj", "{5B22F6E9-3675-42B5-9CAA-090BA39A5407}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{AB21F4D6-0714-4311-904C-F0087BD9847B}.Debug|x86.Build.0 = Debug|x86
 		{AB21F4D6-0714-4311-904C-F0087BD9847B}.Release|x86.ActiveCfg = Release|x86
 		{AB21F4D6-0714-4311-904C-F0087BD9847B}.Release|x86.Build.0 = Release|x86
+		{5B22F6E9-3675-42B5-9CAA-090BA39A5407}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B22F6E9-3675-42B5-9CAA-090BA39A5407}.Debug|x86.Build.0 = Debug|Any CPU
+		{5B22F6E9-3675-42B5-9CAA-090BA39A5407}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B22F6E9-3675-42B5-9CAA-090BA39A5407}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
