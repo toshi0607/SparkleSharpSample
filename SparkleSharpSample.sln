@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkleSharpSample", "Spark
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparkle", "SparkleSharp\Sparkle\Sparkle.csproj", "{5B22F6E9-3675-42B5-9CAA-090BA39A5407}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{857A1DA7-2471-42EF-94A0-46C29720A210}"
+	ProjectSection(SolutionItems) = preProject
+		appcast.xml = appcast.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
