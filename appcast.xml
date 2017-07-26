@@ -17,7 +17,7 @@
           ]]>
         </description>
         <pubDate>2017-07-24T17:32:53+0900</pubDate>
-        <enclosure url="xxx" sparkle:version="2.0" length="5097096" type="application/octet-stream" sparkle:dsaSignature="xxx" />
+        <enclosure url="https://github.com/toshi0607/SparkleSharpSample/releases/download/1.0/SparkleSharpSample.pkg" sparkle:version="2.0" length="5097096" type="application/octet-stream" sparkle:dsaSignature="MC0CFQCT910+QlWn64UAT4+Y4JuDbAJewwIUXU8teLJGQQA9gEOjfQjKqSnwBbc=" />
       </item>
   </channel>
 </rss>
