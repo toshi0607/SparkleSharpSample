@@ -1,4 +1,5 @@
 ﻿using System;
+using Sparkle;
 
 using AppKit;
 using Foundation;
@@ -7,6 +8,8 @@ namespace SparkleSharpSample
 {
     public partial class ViewController : NSViewController
     {
+        SUUpdater updater;
+
         public ViewController(IntPtr handle) : base(handle)
         {
         }
@@ -30,5 +33,18 @@ namespace SparkleSharpSample
                 // Update the view, if already loaded.
             }
         }
+
+        public override void AwakeFromNib()
+        {
+            base.AwakeFromNib();
+            updater = new SUUpdater();
+            updater.AutomaticallyChecksForUpdates = false;
+        }
+
+        partial void CheckUpdates(NSObject sender)
+        {
+            updater.CheckForUpdates(new NSObject());
+        }
+
     }
 }
