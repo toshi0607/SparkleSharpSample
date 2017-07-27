@@ -29,7 +29,7 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>SUFeedURL</key>
-	<string>https://github.com/toshi0607/SparkleSharpSample/blob/master/appcast.xml</string>
+	<string>https://raw.githubusercontent.com/toshi0607/SparkleSharpSample/master/appcast.xml</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 </dict>
