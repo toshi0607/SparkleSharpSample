@@ -10,6 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		appcast.xml = appcast.xml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkleSharpSample.NUnit.Test", "SparkleSharpSample.NUnit.Test\SparkleSharpSample.NUnit.Test.csproj", "{6F9DE939-B607-4426-A53A-D4DD8144CC10}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{C21013C4-2432-4294-A4BB-F6F4A1283CAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkleSharpSameple.XUnit.Test", "SparkleSharpSameple.XUnit.Test\SparkleSharpSameple.XUnit.Test.csproj", "{41C7898A-6D3B-4E9D-B6A1-00C4421C3DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal", "Portal\Portal.csproj", "{D4F19D73-E054-4067-A5FD-DF055B31595C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -24,5 +32,17 @@ Global
 		{5B22F6E9-3675-42B5-9CAA-090BA39A5407}.Debug|x86.Build.0 = Debug|Any CPU
 		{5B22F6E9-3675-42B5-9CAA-090BA39A5407}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B22F6E9-3675-42B5-9CAA-090BA39A5407}.Release|x86.Build.0 = Release|Any CPU
+		{6F9DE939-B607-4426-A53A-D4DD8144CC10}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F9DE939-B607-4426-A53A-D4DD8144CC10}.Debug|x86.Build.0 = Debug|Any CPU
+		{6F9DE939-B607-4426-A53A-D4DD8144CC10}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F9DE939-B607-4426-A53A-D4DD8144CC10}.Release|x86.Build.0 = Release|Any CPU
+		{41C7898A-6D3B-4E9D-B6A1-00C4421C3DAA}.Debug|x86.ActiveCfg = Debug|x86
+		{41C7898A-6D3B-4E9D-B6A1-00C4421C3DAA}.Debug|x86.Build.0 = Debug|x86
+		{41C7898A-6D3B-4E9D-B6A1-00C4421C3DAA}.Release|x86.ActiveCfg = Release|x86
+		{41C7898A-6D3B-4E9D-B6A1-00C4421C3DAA}.Release|x86.Build.0 = Release|x86
+		{D4F19D73-E054-4067-A5FD-DF055B31595C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D4F19D73-E054-4067-A5FD-DF055B31595C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D4F19D73-E054-4067-A5FD-DF055B31595C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D4F19D73-E054-4067-A5FD-DF055B31595C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

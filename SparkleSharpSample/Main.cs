@@ -8,6 +8,7 @@ namespace SparkleSharpSample
         {
             NSApplication.Init();
             NSApplication.Main(args);
+            var s = new EmptyClass();
         }
     }
 }
